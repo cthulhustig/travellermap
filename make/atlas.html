@@ -4,8 +4,14 @@
 <meta charset="utf-8">
 <link rel="shortcut icon" href="../favicon.svg">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.8/handlebars.min.js"></script>
-<script src="../map.js?update=2023-08-08T08:43:57"></script>
-<script src="atlas.js?update=2023-08-08T08:43:57"></script>
+<script type="importmap">
+{
+  "imports": {
+    "../map.js": "../map.js?update=2026-04-20T11:48:09"
+  }
+}
+</script>
+<script type="module" src="atlas.js?update=2026-04-08T20:10:39"></script>
 <style>
 @import url(https://fonts.googleapis.com/css?family=Marcellus|Roboto+Condensed);
 
@@ -120,6 +126,7 @@ h1.underline {
   background-position: 100% 0%;
   background-size: auto 100%;
   -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 #cover_page .title_adventure,
 #cover_page .title_title {
@@ -142,6 +149,7 @@ h1.underline {
   background-position: 18% 0%;
   background-size: auto 100%;
   -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 #backcover_page .blurb {
   position: absolute;

@@ -89,12 +89,12 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-8</X>
     <Name Lang="zh">Bliardlie</Name>
   </Sector>
-  <Sector>
+  <Sector Abbreviation="Zhie" Tags="Unreviewed" Selected="true">
     <Y>-5</Y>
     <X>-7</X>
     <Name Lang="zh">Zhiensh</Name>
-    <DataFile Source="Mongoose" Author="Bella" Type="TabDelimited">Zhiensh.tab</DataFile>
-    <MetadataFile Source="Mongoose" Author="Bella">Zhiensh.xml</MetadataFile>
+    <DataFile Source="Mongoose Publishing" Author="Isabella Treccani-Chinelli" Type="TabDelimited">Zhiensh.tab</DataFile>
+    <MetadataFile Source="Mongoose Publishing" Author="Isabella Treccani-Chinelli">Zhiensh.xml</MetadataFile>
   </Sector>
   <Sector>
     <Y>-5</Y>
@@ -129,15 +129,8 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Y>-5</Y>
     <X>-2</X>
     <Name Lang="va">Rzakki</Name>
-    <DataFile Author="John G. Wood" Source="Underdeveloped Sectors" Ref="https://web.archive.org/web/20160205040546/http://homepage.ntlworld.com/elvwood/Traveller/Sectors/">rzakki.sec</DataFile>
-    <Borders>
-      <Border Allegiance="VU" Color="olivedrab">1330 1429 1529 1528 1529 1629 1529 1429 1330</Border>
-      <Border Allegiance="VZ" Color="olivedrab">2631 2632 2633 2632 2631</Border>
-    </Borders>
-    <Allegiances Source="Vilani and Vargr">
-      <Allegiance Code="VU">Union of Seekers</Allegiance>
-      <Allegiance Code="VZ">Ruzz Confederation</Allegiance>
-    </Allegiances>
+    <MetadataFile>Rzakki.xml</MetadataFile>
+    <DataFile Author="Mark F. Anderson, John G. Wood" Source="Underdeveloped Sectors" Ref="https://web.archive.org/web/20160205040546/http://homepage.ntlworld.com/elvwood/Traveller/Sectors/" Type="SecondSurvey">Rzakki.txt</DataFile>
   </Sector>
   <Sector>
     <Y>-5</Y>
@@ -152,6 +145,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VE">Agents of Eloeghoe</Allegiance>
       <Allegiance Code="VL">League Alliance</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Lukhskakhu</Subsector>
+      <Subsector Index="B">Uthtsos</Subsector>
+      <Subsector Index="C">Suekhdae</Subsector>
+      <Subsector Index="D">Adzksou</Subsector>
+      <Subsector Index="E">Ngusrue</Subsector>
+      <Subsector Index="F">Zaekszu</Subsector>
+      <Subsector Index="G">Fedz</Subsector>
+      <Subsector Index="H">Naeou</Subsector>
+      <Subsector Index="I">Afirskoug</Subsector>
+      <Subsector Index="J">Zaerse</Subsector>
+      <Subsector Index="K">Ksough</Subsector>
+      <Subsector Index="L">Thagzkhue</Subsector>
+      <Subsector Index="M">Uedh</Subsector>
+      <Subsector Index="N">Gzaathduer</Subsector>
+      <Subsector Index="O">Aegghog</Subsector>
+      <Subsector Index="P">Ghogvoeghz</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-5</Y>
@@ -287,6 +298,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VR">Kechk Reversion</Allegiance>
       <Allegiance Code="Ve">Empire of Varroerth</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Thoekh</Subsector>
+      <Subsector Index="B">Oudhgvoeg</Subsector>
+      <Subsector Index="C">Uenngoul</Subsector>
+      <Subsector Index="D">Thignousae</Subsector>
+      <Subsector Index="E">Froelloll</Subsector>
+      <Subsector Index="F">Lerrtsaeueghz</Subsector>
+      <Subsector Index="G">Dengge</Subsector>
+      <Subsector Index="H">Erssou</Subsector>
+      <Subsector Index="I">Ghuengzoull</Subsector>
+      <Subsector Index="J">Vinurva</Subsector>
+      <Subsector Index="K">Guerrkonkhua</Subsector>
+      <Subsector Index="L">Aerzdourrgh</Subsector>
+      <Subsector Index="M">Asrekuedh</Subsector>
+      <Subsector Index="N">Ngoeadz</Subsector>
+      <Subsector Index="O">Alfo</Subsector>
+      <Subsector Index="P">Garsga</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -318,6 +347,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VS">Jarrgh Subjugate</Allegiance>
       <Allegiance Code="Ve">Empire of Varroerth</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Ragzdhagksa</Subsector>
+      <Subsector Index="B">Angzae</Subsector>
+      <Subsector Index="C">Oknouughsaz</Subsector>
+      <Subsector Index="D">Kaekhsrroe</Subsector>
+      <Subsector Index="E">Dhuengksa</Subsector>
+      <Subsector Index="F">Zefoerrglu</Subsector>
+      <Subsector Index="G">Sooellkoks</Subsector>
+      <Subsector Index="H">Toegkikhsdzu</Subsector>
+      <Subsector Index="I">Adznugroa</Subsector>
+      <Subsector Index="J">Okti</Subsector>
+      <Subsector Index="K">Ksurstso</Subsector>
+      <Subsector Index="L">Tegrrerrgh</Subsector>
+      <Subsector Index="M">Geghzksae</Subsector>
+      <Subsector Index="N">Nekhszo</Subsector>
+      <Subsector Index="O">Ergvaekhs</Subsector>
+      <Subsector Index="P">Ukkaegh</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -334,6 +381,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VK">Koenotz Empire</Allegiance>
       <Allegiance Code="Ve">Empire of Varroerth</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Knighzksoaks</Subsector>
+      <Subsector Index="B">Nag</Subsector>
+      <Subsector Index="C">Ksakhthaer</Subsector>
+      <Subsector Index="D">Dhoerrsa</Subsector>
+      <Subsector Index="E">Oeksrrerr</Subsector>
+      <Subsector Index="F">Aksong</Subsector>
+      <Subsector Index="G">Ngaks</Subsector>
+      <Subsector Index="H">Darrfaea</Subsector>
+      <Subsector Index="I">Khorlla</Subsector>
+      <Subsector Index="J">Sourrdueghngorr</Subsector>
+      <Subsector Index="K">Len</Subsector>
+      <Subsector Index="L">Khaento</Subsector>
+      <Subsector Index="M">Korghue</Subsector>
+      <Subsector Index="N">Vaenurr</Subsector>
+      <Subsector Index="O">Uerkna</Subsector>
+      <Subsector Index="P">Triston</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -354,6 +419,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VX">Vaoekghirkhr Exchange</Allegiance>
       <Allegiance Code="Ve">Empire of Varroerth</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Sigsorugz</Subsector>
+      <Subsector Index="B">Goeuezgva</Subsector>
+      <Subsector Index="C">Dhozzaaer</Subsector>
+      <Subsector Index="D">Diggy</Subsector>
+      <Subsector Index="E">Eghdzeghugz</Subsector>
+      <Subsector Index="F">Ounfeghz</Subsector>
+      <Subsector Index="G">Kaengtaeko</Subsector>
+      <Subsector Index="H">Asthoe</Subsector>
+      <Subsector Index="I">Rursga</Subsector>
+      <Subsector Index="J">Singhegh</Subsector>
+      <Subsector Index="K">Zueghrae</Subsector>
+      <Subsector Index="L">Kogloaell</Subsector>
+      <Subsector Index="M">Anggekhorr</Subsector>
+      <Subsector Index="N">Kfaellvue</Subsector>
+      <Subsector Index="O">Khoen</Subsector>
+      <Subsector Index="P">Gzekhrradhi</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -366,6 +449,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Allegiances Source="Vilani and Vargr">
       <Allegiance Code="VX">Vaoekghirkhr Exchange</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Oungghoe</Subsector>
+      <Subsector Index="B">Earzdodiz</Subsector>
+      <Subsector Index="C">Kfoeos</Subsector>
+      <Subsector Index="D">Knerrku</Subsector>
+      <Subsector Index="E">Kaen</Subsector>
+      <Subsector Index="F">Gaell</Subsector>
+      <Subsector Index="G">Turrfosza</Subsector>
+      <Subsector Index="H">Sadzikh</Subsector>
+      <Subsector Index="I">Khaeo</Subsector>
+      <Subsector Index="J">Zoeg</Subsector>
+      <Subsector Index="K">Gerrue</Subsector>
+      <Subsector Index="L">Pariah</Subsector>
+      <Subsector Index="M">Ogzkfaang</Subsector>
+      <Subsector Index="N">Uadzrra</Subsector>
+      <Subsector Index="O">Oghzgo</Subsector>
+      <Subsector Index="P">Ukgalksarr</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -391,6 +492,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Allegiances Source="Vilani and Vargr">
       <Allegiance Code="VJ">Authority of Joekghr</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Etarrka</Subsector>
+      <Subsector Index="B">Goeoaeg</Subsector>
+      <Subsector Index="C">Gvok</Subsector>
+      <Subsector Index="D">Oukhko</Subsector>
+      <Subsector Index="E">Gvasrue</Subsector>
+      <Subsector Index="F">Konrro</Subsector>
+      <Subsector Index="G">Zuedhdhue</Subsector>
+      <Subsector Index="H">Ksakvuethgoll</Subsector>
+      <Subsector Index="I">Inggaeur</Subsector>
+      <Subsector Index="J">Eksfae</Subsector>
+      <Subsector Index="K">Gzueoeks</Subsector>
+      <Subsector Index="L">Tsonggerngog</Subsector>
+      <Subsector Index="M">Daekfoen</Subsector>
+      <Subsector Index="N">Uengsa</Subsector>
+      <Subsector Index="O">Ghaz</Subsector>
+      <Subsector Index="P">Iekh</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -399,6 +518,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Name Lang="va" Publisher="HIWG">Gzerzarssou</Name>
     <Name Publisher="HIWG">Puragaaku</Name>
     <DataFile Author="John G. Wood" Source="Underdeveloped Sectors" Ref="https://web.archive.org/web/20160205040546/http://homepage.ntlworld.com/elvwood/Traveller/Sectors/">angfutsag.sec</DataFile>
+    <Subsectors>
+      <Subsector Index="A">Khugzkfael</Subsector>
+      <Subsector Index="B">Oenggaen</Subsector>
+      <Subsector Index="C">Oghsourgnarr</Subsector>
+      <Subsector Index="D">Daon</Subsector>
+      <Subsector Index="E">Llanghikhing</Subsector>
+      <Subsector Index="F">Zedh</Subsector>
+      <Subsector Index="G">Aezgueng</Subsector>
+      <Subsector Index="H">Daevin</Subsector>
+      <Subsector Index="I">Ghaersvazkoe</Subsector>
+      <Subsector Index="J">Aekhsek</Subsector>
+      <Subsector Index="K">Elgaerztsu</Subsector>
+      <Subsector Index="L">Uksgoth</Subsector>
+      <Subsector Index="M">Gzoukhghagh</Subsector>
+      <Subsector Index="N">Thaen</Subsector>
+      <Subsector Index="O">Gizzaghzko</Subsector>
+      <Subsector Index="P">Aeraears</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-4</Y>
@@ -682,6 +819,24 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Allegiance Code="VC">Hezeraek Connective</Allegiance>
       <Allegiance Code="VM">Mazaroegh Dominion</Allegiance>
     </Allegiances>
+    <Subsectors>
+      <Subsector Index="A">Garsokrou</Subsector>
+      <Subsector Index="B">Uegharr</Subsector>
+      <Subsector Index="C">Dhozvioun</Subsector>
+      <Subsector Index="D">Ingsughae</Subsector>
+      <Subsector Index="E">Khaegthooe</Subsector>
+      <Subsector Index="F">Fangtuelrongse</Subsector>
+      <Subsector Index="G">Naea</Subsector>
+      <Subsector Index="H">Zuenghazghall</Subsector>
+      <Subsector Index="I">Orr</Subsector>
+      <Subsector Index="J">Aeth</Subsector>
+      <Subsector Index="K">Ekhkhaekeng</Subsector>
+      <Subsector Index="L">Ozzou</Subsector>
+      <Subsector Index="M">Daegzdhu</Subsector>
+      <Subsector Index="N">Ongvoeoekhs</Subsector>
+      <Subsector Index="O">Dazro</Subsector>
+      <Subsector Index="P">Arrgno</Subsector>
+    </Subsectors>
   </Sector>
   <Sector>
     <Y>-3</Y>
@@ -793,36 +948,13 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <DataFile Type="TabDelimited">Eiaplial.tab</DataFile>
     <MetadataFile>Eiaplial.xml</MetadataFile>
   </Sector>
-  <Sector>
+  <Sector Abbreviation="Zhda" Tags="InReview">
     <Y>-2</Y>
     <X>-7</X>
     <Name Lang="zh">Zhdant</Name>
     <Name>Zhodane</Name>
-    <DataFile Author="William Dover and Clay Bush" Publisher="HIWG" Ref="http://www.zho.berka.com/data/CLASSIC/sector.pl?sector=ZHODANE">zhdant.sec</DataFile>
-    <Subsectors Author="William Dover" Publisher="HIWG">
-      <Subsector Index="A">Drevlishienz</Subsector>
-      <Subsector Index="B">Chiashov</Subsector>
-      <Subsector Index="C">Ienjefroda</Subsector>
-      <Subsector Index="D">Chtabra Stonche</Subsector>
-      <Subsector Index="E">Dashipr</Subsector>
-      <Subsector Index="F">Tliaqbravets</Subsector>
-      <Subsector Index="G">Flonzebrienzh</Subsector>
-      <Subsector Index="H" Source="Supplement 11">Gaval</Subsector>
-      <Subsector Index="I">Qlentileche</Subsector>
-      <Subsector Index="J">Adriantkev</Subsector>
-      <Subsector Index="K">Zdefrients</Subsector>
-      <Subsector Index="L">Plelinchier</Subsector>
-      <Subsector Index="M">Mekrashozh</Subsector>
-      <Subsector Index="N">Yevriblrz</Subsector>
-      <Subsector Index="O">Iezranspa</Subsector>
-      <Subsector Index="P">Stieniazhir</Subsector>
-    </Subsectors>
-    <Allegiances>
-      <Allegiance Code="Cw">Chirper World</Allegiance>
-    </Allegiances>
-    <Borders>
-      <Border Allegiance="ZhCo">0000 0100 0200 0300 0400 0500 0600 0700 0800 0900 1000 1100 1200 1300 1400 1500 1600 1700 1800 1900 2000 2100 2200 2300 2400 2500 2600 2700 2800 2900 3000 3100 3200 3300 3301 3302 3303 3304 3305 3306 3307 3308 3309 3310 3311 3312 3313 3314 3315 3316 3317 3318 3319 3320 3321 3322 3323 3324 3325 3326 3327 3328 3329 3330 3331 3332 3333 3334 3335 3336 3337 3338 3339 3340 3341 3241 3141 3041 2941 2841 2741 2641 2541 2441 2341 2241 2141 2041 1941 1841 1741 1641 1541 1441 1341 1241 1141 1041 0941 0841 0741 0641 0541 0441 0341 0241 0141 0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 0027 0026 0025 0024 0023 0022 0021 0020 0019 0018 0017 0016 0015 0014 0013 0012 0011 0010 0009 0008 0007 0006 0005 0004 0003 0002 0001 0000</Border>
-    </Borders>
+    <DataFile Author="William Dover and Clay Bush" Publisher="HIWG" Ref="https://zhodani.space/data/CLASSIC/sector.cgi?sector=ZHODANE" Type="TabDelimited">Zhdant.tab</DataFile>
+    <MetadataFile>Zhdant.xml</MetadataFile>
   </Sector>
   <Sector Abbreviation="Tien" Tags="InReview">
     <Y>-2</Y>
@@ -952,7 +1084,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Y>-2</Y>
     <X>5</X>
     <Name Lang="kk">Gur</Name>
-    <DataFile Author="Jim Kundert" Type="TabDelimited">Gur.tab</DataFile>
+    <DataFile Author="Jim Kundert" Type="SecondSurvey">Gur.txt</DataFile>
     <MetadataFile>Gur.xml</MetadataFile>
   </Sector>
   <Sector>
@@ -1266,7 +1398,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <DataFile Source="Traveller 5 Second Survey" Milieu="M1105" Type="TabDelimited">Fornast.tab</DataFile>
     <MetadataFile>Fornast.xml</MetadataFile>
   </Sector>
-  <Sector Abbreviation="Ley" Selected="true" Tags="Official">
+  <Sector Abbreviation="Ley" Tags="Official" Selected="true">
     <Y>0</Y>
     <X>2</X>
     <Name>Ley</Name>
@@ -1275,7 +1407,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <DataFile Author="Martin J. Dougherty and Hunter Gordon" Source="Traveller 5 Second Survey" Milieu="M1105" Type="TabDelimited">Ley.tab</DataFile>
     <MetadataFile>Ley.xml</MetadataFile>
   </Sector>
-  <Sector Abbreviation="Gate" Selected="true" Tags="Official">
+  <Sector Abbreviation="Gate" Tags="Official" Selected="true">
     <Y>0</Y>
     <X>3</X>
     <Name>Gateway</Name>
@@ -1575,6 +1707,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
 
       ]]>
     </Credits>
+  <Product Publisher="Mongoose Publishing" Author="Randy Dorman" Title="The Aslan Hierate" Ref="https://www.mongoosepublishing.com/products/the-aslan-hierate"/>
     <DataFile Source="Traveller 5 Second Survey" Milieu="M1105" Type="TabDelimited">Hlakhoi.tab</DataFile>
     <Subsectors Source="CORE">
       <Subsector Index="A">Oheerl</Subsector>
@@ -1712,7 +1845,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <DataFile Source="Traveller 5 Second Survey" Milieu="M1105" Type="TabDelimited">Ealiyasiyw.tab</DataFile>
     <MetadataFile Source="Traveller 5 Second Survey" Milieu="M1105">Ealiyasiyw.xml</MetadataFile>
   </Sector>
-  <Sector Abbreviation="Reav" Selected="true" Tags="Official">
+  <Sector Abbreviation="Reav" Tags="Official" Selected="true">
     <Y>2</Y>
     <X>-2</X>
     <Name>Reaver's Deep</Name>
@@ -2028,7 +2161,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
       <Subsector Index="P">Aiaiheh</Subsector>
     </Subsectors>
   </Sector>
-  <Sector Abbreviation="Dark" Selected="true" Tags="Official">
+  <Sector Abbreviation="Dark" Tags="Official" Selected="true">
     <Y>3</Y>
     <X>-2</X>
     <Name>Dark Nebula</Name>
@@ -2597,7 +2730,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Y>5</Y>
     <X>-5</X>
     <Name Lang="as">Irlaftalea</Name>
-    <DataFile Source="Solomani and Aslan" Ref="https://travellermap.com/data/irlaftalea">irlaftalea.sec</DataFile>
+    <DataFile Source="Solomani and Aslan" Ref="https://travellermap.com/data/irlaftalea" Type="TabDelimited">Irlaftalea.tab</DataFile>
     <Subsectors>
       <Subsector Index="A">Aokhtaul</Subsector>
       <Subsector Index="B">Eaiykair</Subsector>
@@ -2629,7 +2762,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-4</X>
     <Name Lang="as">Teahloarifu</Name>
     <Name Lang="as" Source="GURPS Traveller: Alien Races 2">Tahloarifu</Name>
-    <DataFile Source="Solomani and Aslan" Ref="https://travellermap.com/data/teahloarifu">teahloarifu.sec</DataFile>
+    <DataFile Source="Solomani and Aslan" Ref="https://travellermap.com/data/teahloarifu" Type="TabDelimited">Teahloarifu.tab</DataFile>
     <Subsectors>
       <Subsector Index="A">Ehyaiy</Subsector>
       <Subsector Index="B">Ekhyefiw</Subsector>
@@ -2739,7 +2872,8 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-1</X>
     <Name>Hanstone</Name>
     <Name Lang="as" Publisher="HIWG">Ftetlao'</Name>
-    <DataFile Author="Jo Grant, Jeff Zeitlin, and Matthew Collins" Type="SecondSurvey">Hanstone.txt</DataFile>
+    <Product Publisher="Mongoose Publishing" Author="Martin J. Dougherty" Title="Cluster Truck" Ref="https://www.mongoosepublishing.com/products/cluster-truck" />
+    <DataFile Author="Jo Grant, Jeff Zeitlin, Matthew Collins, Martin J. Dougherty" Type="SecondSurvey">Hanstone.txt</DataFile>
     <Subsectors Source="Jo Grant">
       <Subsector Index="A">Grieg</Subsector>
       <Subsector Index="B">Nadon</Subsector>
@@ -2997,11 +3131,13 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-3</X>
     <Name Lang="as" Publisher="HIWG">Elyetleisiyea</Name>
   </Sector>
-  <Sector>
+  <Sector Abbreviation="Ahri" Tags="Unofficial">
     <Y>6</Y>
     <X>-2</X>
     <Name Lang="as" Source="GURPS Traveller: Alien Races 2">Ahriman</Name>
     <Name Lang="as" Publisher="HIWG">Eose'o</Name>
+    <DataFile Author="Leigh Heron" Source="GURPS Traveller: Alien Races 2" Milieu="M1105" Type="TabDelimited">Ahriman.tab</DataFile>
+    <MetadataFile Author="Leigh Heron">Ahriman.xml</MetadataFile>
   </Sector>
   <Sector>
     <Y>6</Y>
@@ -3236,7 +3372,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-2</X>
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">Graeber</Name>
   </Sector>
-  <Sector>
+  <Sector Abbreviation="Lubb" Tags="Unreviewed" Selected="true">
     <Y>7</Y>
     <X>-1</X>
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">Lubbock</Name>
@@ -3275,7 +3411,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <X>-1</X>
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">Hadley</Name>
   </Sector>
-  <Sector>
+  <Sector Abbreviation="Krus" Tags="Unreviewed" Selected="true">
     <Y>9</Y>
     <X>0</X>
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">Kruse</Name>
@@ -3368,7 +3504,7 @@ Left:   0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 00
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">RC+4+2</Name>
   </Sector>
 
-  <Sector>
+  <Sector Abbreviation="Xuan" Tags="Unreviewed" Selected="true">
     <Y>15</Y>
     <X>-2</X>
     <Name Source="Rim Expeditions" Author="Martin J. Dougherty">Xuanzang</Name>
